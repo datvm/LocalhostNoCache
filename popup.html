@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Localhost No Cache</title>
+
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <h2>Localhost No Cache</h2>
+    <p>
+        <label>
+            <input type="checkbox" id="toggle" />
+            Enable no-cache interception
+        </label>
+    </p>
+    <p id="status">Status: Active</p>
+
+    <ul>
+        <li>Targets <strong>localhost</strong> &amp; <strong>127.0.0.1</strong> (all ports)</li>
+        <li>Sets request <code>Cache-Control: no-cache</code></li>
+        <li>Sets <code>Pragma: no-cache</code></li>
+    </ul>
+    <p>All resource types: HTML, JS, CSS, images, XHR, WebSocket...</p>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
