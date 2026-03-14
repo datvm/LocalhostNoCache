@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Localhost No Cache",
   "version": "1.0",
-  "description": "Intercepts all localhost / 127.0.0.1 requests and forces no-cache response headers.",
+  "description": "Intercepts all localhost / 127.0.0.1 requests and forces no-cache request headers.",
   "permissions": [
     "declarativeNetRequest",
     "storage"
