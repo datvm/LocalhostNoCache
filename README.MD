@@ -6,9 +6,9 @@ A lightweight Chrome/Edge extension that forces cache bypass for all requests to
 
 ## Install
 
-**Chrome Web Store** — *(pending review, link will be added on release)*
+**Chrome Web Store**: https://chromewebstore.google.com/detail/localhost-no-cache/gehgkdbfaihohppngkpohhhkoddfekip
 
-**Microsoft Edge Add-ons** — *(pending review, link will be added on release)*
+**Microsoft Edge Add-ons**: https://microsoftedge.microsoft.com/addons/detail/localhost-no-cache/afnngkhoimgbanhgnandmnmfhbgljoin
 
 Or load unpacked manually (see [Development](#development) below).
 
